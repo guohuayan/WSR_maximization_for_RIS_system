@@ -1,6 +1,6 @@
 ## WSR maximization for RIS system
 
-This repository contains the source codes of the Fig.4(b) in the paper ``Weighted Sum-Rate Maximization for Reconfigurable Intelligent Surface Aided Wireless Networks'' published IEEE Transactions on Wireless Communications.
+This repository contains the source codes of the Fig.4(b) in the paper ``Weighted Sum-Rate Maximization for Reconfigurable Intelligent Surface Aided Wireless Networks'' published in IEEE Transactions on Wireless Communications.
 
 The recent version of this paper can also be found in ArXiv (see <https://arxiv.org/abs/1912.11999>)
 
