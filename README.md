@@ -42,7 +42,7 @@ The following are the main code files for the 5 algorihtms shown in the figure.
 
 ## Some related works on passive radio communications
 
-If you are intersted in the passive radio communications, there are several interesting works on ambient backscatter communications, which you can discuss with me:
+If you are intersted in the passive radio communications, there are several interesting works on ambient backscatter communications, which you can discuss with me as well:
 
 [1]	H. Guo, Q. Zhang, S. Xiao and Y.-C. Liang, "Exploiting multiple antennas for cognitive ambient backscatter communication," in IEEE Internet Things J., vol. 6, no. 1, pp. 765-775, Feb. 2019.  
 [2]	Q. Zhang, H. Guo, Y.-C. Liang and X. Yuan, "Constellation learning-based signal detection for ambient backscatter communication systems," in IEEE J. Sel. Areas Commun., vol. 37, no. 2, pp. 452-463, Feb. 2019.  
