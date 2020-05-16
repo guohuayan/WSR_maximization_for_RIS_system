@@ -7,8 +7,14 @@ You may cite us by
 author={H. Guo and Y.-C. Liang and J. Chen and E. G. Larsson},   
 journal={IEEE Trans. Wireless Commun.},   
 title={Weighted Sum-Rate Maximization for Reconfigurable Intelligent Surface Aided Wireless Networks},   
-year={Early Access, DOI:10.1109/TWC.2020.2970061},   
-ISSN={1558-2248},}
+volume = {19},
+   number = {5},
+   pages = {3064-3076},
+   ISSN = {1558-2248},
+   DOI = {10.1109/TWC.2020.2970061},
+   year = {2020},
+   type = {Journal Article}
+}
 
 The recent version of this paper can also be found in ArXiv (see <https://arxiv.org/abs/1912.11999>)
 
