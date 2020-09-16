@@ -8,12 +8,12 @@ author={H. Guo and Y.-C. Liang and J. Chen and E. G. Larsson},
 journal={IEEE Trans. Wireless Commun.},   
 title={Weighted Sum-Rate Maximization for Reconfigurable Intelligent Surface Aided Wireless Networks},   
 volume = {19},
-   number = {5},
-   pages = {3064-3076},
-   ISSN = {1558-2248},
-   DOI = {10.1109/TWC.2020.2970061},
-   year = {2020},
-   type = {Journal Article}
+number = {5},
+pages = {3064-3076},
+ISSN = {1558-2248},
+DOI = {10.1109/TWC.2020.2970061},
+year = {2020},
+type = {Journal Article}
 }
 
 The recent version of this paper can also be found in ArXiv (see <https://arxiv.org/abs/1912.11999>)
@@ -46,11 +46,9 @@ The following are the main code files for the 5 algorihtms shown in the figure.
 + ``converge_A2_perfect.m'': Proposed algorithm under the perfect CSI setup.
 + ``converge_A2_imperfect.m'': Proposed algorithm under the imperfect CSI setup.
 
-## Some related works on passive radio communications
+## Some other recent works on reflection surface
 
-If you are intersted in the passive radio communications, there are several interesting works on ambient backscatter communications, which you can discuss with me as well:
+#### Robust configuration based on statistical CSI:
+[1] H. Guo, Y. Liang and S. Xiao, "Intelligent Reflecting Surface Configuration with Historical Channel Observations," in IEEE Wireless Communications Letters, doi: 10.1109/LWC.2020.3003348.
 
-[1]	H. Guo, Q. Zhang, S. Xiao and Y.-C. Liang, "Exploiting multiple antennas for cognitive ambient backscatter communication," in IEEE Internet Things J., vol. 6, no. 1, pp. 765-775, Feb. 2019.  
-[2]	Q. Zhang, H. Guo, Y.-C. Liang and X. Yuan, "Constellation learning-based signal detection for ambient backscatter communication systems," in IEEE J. Sel. Areas Commun., vol. 37, no. 2, pp. 452-463, Feb. 2019.  
-[3]	S. Xiao, H. Guo, and Y.-C. Liang, “Resource allocation for full-duplex-enabled cognitive backscatter networks,” in IEEE Trans. Wireless Commun., vol. 18, no. 6, pp. 3222-3235, 2019.  
-[4]	R. Long, Y.-C. Liang, H. Guo, G. Yang, and R. Zhang, “Symbiotic radio: A new communication paradigm for passive Internet-of-Things,” in IEEE Internet Things J., Early Access.
+Novelty: In related works, the statistical CSI is usually assumed as prior channel knowledge. By contrast, the statistical CSI in this paper is extracted implicitly from historical channel observations which is more practical.
