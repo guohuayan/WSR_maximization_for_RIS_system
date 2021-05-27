@@ -49,6 +49,6 @@ The following are the main code files for the 5 algorihtms shown in the figure.
 ## Some other recent works on reflection surface
 
 #### Robust configuration based on statistical CSI:
-[1] H. Guo, Y.-C. Liang and S. Xiao, "Intelligent Reflecting Surface Configuration With Historical Channel Observations," in IEEE Wireless Communications Letters, vol. 9, no. 11, pp. 1821-1824, Nov. 2020, doi: 10.1109/LWC.2020.3003348.
+[1] H. Guo, Y.-C. Liang and S. Xiao, "Intelligent Reflecting Surface Configuration With Historical Channel Observations," in IEEE Wireless Communications Letters, vol. 9, no. 11, pp. 1821-1824, Nov. 2020.
 
-Novelty: In related works, the statistical CSI is usually assumed as prior channel knowledge. By contrast, the statistical CSI in this paper is extracted implicitly from historical channel observations which is more practical.
+Notes: In existing works, the IRS is actually configured only according to the LoS-link CSI, and the spatial correlation of the NLoS channel is ignored. In addition, the LoS link may be unavaiable in some cases. This paper attempts to resolve this issue by extracting the statistical CSI from historical channel observations.
