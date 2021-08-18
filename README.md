@@ -16,7 +16,6 @@ year = {2020},
 type = {Journal Article}
 }
 
-The recent version of this paper can also be found in ArXiv (see <https://arxiv.org/abs/1912.11999>)
 
 One previous version of this paper is named ``Weighted Sum-Rate Optimization for Intelligent Reflecting Surface Enhanced Wireless Networks'', which can be found in ArXiv as well (see <https://arxiv.org/abs/1905.07920>). The short version has been presented in IEEE GLOBECOM 2019.
 
