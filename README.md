@@ -2,23 +2,6 @@
 
 This repository contains the source codes of the Fig.4(b) in the paper ``Weighted Sum-Rate Maximization for Reconfigurable Intelligent Surface Aided Wireless Networks'' published in IEEE Transactions on Wireless Communications.
 
-You may cite us by  
-@ARTICLE{8982186,   
-author={H. Guo and Y.-C. Liang and J. Chen and E. G. Larsson},   
-journal={IEEE Trans. Wireless Commun.},   
-title={Weighted Sum-Rate Maximization for Reconfigurable Intelligent Surface Aided Wireless Networks},   
-volume = {19},
-number = {5},
-pages = {3064-3076},
-ISSN = {1558-2248},
-DOI = {10.1109/TWC.2020.2970061},
-year = {2020},
-type = {Journal Article}
-}
-
-
-One previous version of this paper is named ``Weighted Sum-Rate Optimization for Intelligent Reflecting Surface Enhanced Wireless Networks'', which can be found in ArXiv as well (see <https://arxiv.org/abs/1905.07920>). The short version has been presented in IEEE GLOBECOM 2019.
-
 ## Introduction of the codes
 
 ### Plot fig.4(b)
@@ -45,9 +28,21 @@ The following are the main code files for the 5 algorihtms shown in the figure.
 + ``converge_A2_perfect.m'': Proposed algorithm under the perfect CSI setup.
 + ``converge_A2_imperfect.m'': Proposed algorithm under the imperfect CSI setup.
 
-## Some other recent works on reflection surface
+## Note
+You may cite us by  
+@ARTICLE{8982186,   
+author={H. Guo and Y.-C. Liang and J. Chen and E. G. Larsson},   
+journal={IEEE Trans. Wireless Commun.},   
+title={Weighted Sum-Rate Maximization for Reconfigurable Intelligent Surface Aided Wireless Networks},   
+volume = {19},
+number = {5},
+pages = {3064-3076},
+ISSN = {1558-2248},
+DOI = {10.1109/TWC.2020.2970061},
+year = {2020},
+type = {Journal Article}
+}
 
-#### Robust configuration based on statistical CSI:
-[1] H. Guo, Y.-C. Liang and S. Xiao, "Intelligent Reflecting Surface Configuration With Historical Channel Observations," in IEEE Wireless Communications Letters, vol. 9, no. 11, pp. 1821-1824, Nov. 2020.
 
-Notes: In existing works, the IRS is actually configured only according to the LoS-link CSI, and the spatial correlation of the NLoS channel is ignored. In addition, the LoS link may be unavaiable in some cases. This paper attempts to resolve this issue by extracting the statistical CSI from historical channel observations.
+One previous version of this paper is named ``Weighted Sum-Rate Optimization for Intelligent Reflecting Surface Enhanced Wireless Networks'', which can be found in ArXiv as well (see <https://arxiv.org/abs/1905.07920>). The short version has been presented in IEEE GLOBECOM 2019.
+
