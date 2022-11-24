@@ -2,6 +2,8 @@
 
 This repository contains the source codes of the Fig.4(b) in the paper ``Weighted Sum-Rate Maximization for Reconfigurable Intelligent Surface Aided Wireless Networks'' published in IEEE Transactions on Wireless Communications.
 
+In the paper, BSUM algorithm is adopted which achieves a KKT solution for the MU-WSR problem. In addition, imperfect CSI issue is addressed by stochastic optimization.
+
 ## Introduction of the codes
 
 ### Plot fig.4(b)
@@ -27,6 +29,17 @@ The following are the main code files for the 5 algorihtms shown in the figure.
 + ``converge_AO_perfect.m'': Alternating optimization approach illustrated in Section III. Note that, to support the Riemannian conjugate gradient (RCG) algorithm, one should download the Manopt toolbox from <https://www.manopt.org/> at first.
 + ``converge_A2_perfect.m'': Proposed algorithm under the perfect CSI setup.
 + ``converge_A2_imperfect.m'': Proposed algorithm under the imperfect CSI setup.
+
+## Some of My Related Works
+### IRS channel estimation
++ H. Guo and V. K. N. Lau, "Uplink Cascaded Channel Estimation for Intelligent Reflecting Surface Assisted Multiuser MISO Systems," in IEEE Transactions on Signal Processing, vol. 70, pp. 3964-3977, 2022. (see <https://ieeexplore.ieee.org/document/9839429>).
+
+We propose a novel two-stage channel estimation protocol without the need of on-off amplitude control to avoid the reflection power loss. One may refer the source code from <https://github.com/guohuayan/IRS_Channel_Estimation>
+
+### IRS phase shift optimization with statistical CSI
++ H. Guo, Y. -C. Liang and S. Xiao, "Intelligent Reflecting Surface Configuration With Historical Channel Observations," in IEEE Wireless Communications Letters, vol. 9, no. 11, pp. 1821-1824, Nov. 2020. (see <https://ieeexplore.ieee.org/document/9120336>). 
+
+We propose a general IRS statistical CSI configuration algorithm, which can be adopted to any statistical CSI model even for the case when there is no LoS link between BS and IRS. One may refer the source code from <https://github.com/guohuayan/IRS_opt_statistical_CSI>
 
 ## Note
 You may cite us by  
